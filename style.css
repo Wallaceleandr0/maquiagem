@@ -1,0 +1,745 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.container-top {
+    background-image: url("https://maquiagemnaweb.com/wp-content/uploads/2022/06/BG1-3.jpg");
+    background-size: cover;
+    width: 100%;
+    min-height: 800px;
+    text-align: center;
+}
+
+.padding-top {
+    padding: 25px;
+}
+
+img, iframe {
+    width: 100%;
+}
+
+header {
+    text-align: center;
+    background-color: black;
+    padding: 20px;
+    color: #d1bd77;
+    font-size: 12px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 500px;
+}
+
+.container-top h2 {
+    margin-top: 16px;
+    color: #ecbef6;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.h2-strong {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1em;
+}
+
+.container-top p {
+    margin-top: 13px;
+    color: #ffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.p-strong {
+    font-weight: bolder;
+    font-size: 1.08em;
+}
+
+.iframe-padding {
+    padding: 5px;
+}
+
+#video-top {
+    max-width: 600px;
+    height: 350px;
+    border-radius: 15px;
+    display: block;
+    margin: 15px auto 30px auto;
+    border: solid 3px rgb(104, 23, 179);
+    box-shadow: 2px 2px 24px 2px rgb(109, 6, 206);
+}
+
+.container-top a p {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff30f4;
+    font-size: 22px;
+    padding: 7px 40px;
+    border-radius: 8px;
+    max-width: 450px;
+    display: block;
+    margin: 0 auto;
+    box-shadow: 2px 2px 23px #ff30f4;
+    transition: .1s all;
+}
+
+.container-top a p:hover {
+    transform: scale(1.01);
+}
+
+#payments {
+    display: block;
+    margin: 40px auto 0 auto;
+    max-width: 500px;
+}
+
+.container-mid {
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to top, black, rgb(59, 28, 28));
+    color: white;
+}
+
+.mid-center {
+    display: flex;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.make-img {
+    max-width: 600px;
+    flex: 1 1 400px;
+    margin: 0 auto;
+}
+
+.container-section {
+    margin: 0 auto;
+    padding: 35px;
+    max-width: 600px;
+}
+
+.container-section h3 {
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+    color: #d1bd77;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-shadow: 1px 2px 7px #d1bd77;
+}
+
+.container-section h2 {
+    text-align: center;
+    font-size: 2.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 8px #d1bd77;
+    color: #d1bd77;
+    margin-bottom: 10px;
+}
+
+.big-number {
+    font-size: 2.6em;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 1px 1px 8px #d1bd77;
+    color: #d1bd77;
+}
+
+.p-justify {
+    display: flex;
+    margin-left: 20px;
+}
+
+.container-section p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2em;
+    margin-top: 15px;
+    display: flex;
+    margin: 15px;
+}
+
+.background-info {
+    padding: 10px;
+    background-image: url("img/background.png");
+    background-size: cover;
+    max-height: 1300px;
+}
+
+.curso-info {
+    max-width: 800px;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.background-info h2 {
+    padding-top: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2.3em;
+    color: #ffff;
+    text-align: center;
+}
+
+.h2-pink {
+    color: #ffa2fa;
+}
+
+.box-info {
+    margin-top: 50px;
+    background-color: #0f010c;
+    max-width: 150px;
+    padding: 30px;
+    border-radius: 50px;
+    height: 250px;
+}
+
+.box-info img {
+    display: block;
+    margin: 0 auto 15px auto;
+    max-width: 50px;
+}
+
+.box-info p {
+    color: #ffff;
+    font-size: 1.1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.container-list-img {
+    background-image: url("img/background-batom.png");
+}
+
+.background-info a p {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff30f4;
+    font-size: 22px;
+    padding: 7px 40px;
+    border-radius: 8px;
+    max-width: 300px;
+    display: block;
+    margin: 35px auto;
+    box-shadow: 2px 2px 23px #ff30f4;
+    text-align: center;
+    transition: .1s all;
+}
+
+.background-info a p:hover {
+    transform: scale(1.01);
+}
+
+.flex-container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.background-make {
+    margin: 0 auto;
+}
+
+.background-make img {
+    max-width: 450px;
+}
+
+
+.list-background {
+    padding: 15px;
+    flex: 1 1 400px;
+    max-width: 650px;
+    margin: 70px auto 0 auto;
+}
+
+.list-background p {
+    font-size: 1.1em;
+    color: #fff;
+    font-weight: bolder;
+    margin-top: 25px;
+}
+
+.list-background img {
+    max-width: 25px;
+}
+
+.list-background h2 {
+    font-size: 2.2em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #ffff;
+}
+
+#list-pink {
+    color: #ffa2fa;
+}
+
+.list-background a p {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff30f4;
+    font-size: 22px;
+    padding: 7px 40px;
+    border-radius: 8px;
+    max-width: 350px;
+    display: block;
+    margin: 35px auto;
+    box-shadow: 2px 2px 23px #ff30f4;
+    text-align: center;
+    transition: .1s all;
+    float: left;
+}
+
+.list-background a p:hover {
+    transform: scale(1.01);
+}
+
+.modules {
+    gap: 5px;
+    padding: 15px;
+    background-image: url("img/background-modules.png");
+    background-size: cover;
+}
+
+.modules h2 {
+    color: #ffff;
+    font-size: 2em;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.modules p {
+    color: #ffff;
+}
+
+.modules-pink {
+    color: #ffa2fa;
+}
+
+#modules-p {
+    margin: 8px 0 15px 0;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.module {
+    margin: 25px auto;
+    border-radius: 30px;
+    padding: 15px;
+    align-items: center;
+    max-width: 900px;
+    background: #1f0530;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.module img {
+    max-width: 220px;
+    border-radius: 20px;
+    margin-right: 15px;
+    border: solid 3px #ffa2fa;
+}
+
+.module div {
+    flex: 1 1 320px;
+}
+
+.module h3 {
+    color: #ffa2fa;
+    font-size: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#module-p {
+    font-size: 1.3em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffa2fa;
+}
+
+.module p {
+    color: #ffff;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+
+.modules a p {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff30f4;
+    font-size: 22px;
+    padding: 7px 40px;
+    border-radius: 8px;
+    max-width: 350px;
+    display: block;
+    margin: 35px auto;
+    box-shadow: 2px 2px 23px #ff30f4;
+    text-align: center;
+    transition: .1s all;
+}
+
+.modules a p:hover {
+    transform: scale(1.01);
+}
+
+.alunas {
+    min-height: 500px;
+    background-color: #1f0530;
+    padding: 30px 10px 10px 10px;
+
+}
+
+.alunas h2 {
+    color: #ffa2fa;
+    font-size: 1.7em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.alunas-h2-white {
+    color: #ffff;
+}
+
+.alunas iframe {
+    display: block;
+    border-radius: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    min-height: 400px;
+}
+
+.alunas p {
+    color: #ffff;
+    margin-top: 9px;
+    text-align: center;
+    font-size: 1.1em;
+}
+
+.certificado {
+    background-image: url("img/background-certificado.png");
+    background-size: cover;
+    min-height: 700px;
+    padding: 10px;
+}
+
+.certificado h3 {
+    padding-top: 15px;
+    font-size: 1.18em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    color: #ffff;
+}
+
+.certificado h2 {
+    font-size: 2em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    color: #ffa2fa;
+    text-shadow: 2px 2px 10px pink;
+}
+
+
+#p-certificado {
+    padding-top: 8px;
+    text-align: center;
+    color: #ffff;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.certificado img {
+    display: block;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+.certificado a p {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff30f4;
+    font-size: 22px;
+    padding: 7px 40px;
+    border-radius: 8px;
+    max-width: 500px;
+    display: block;
+    margin: 35px auto;
+    box-shadow: 2px 2px 23px #ff30f4;
+    text-align: center;
+    transition: .1s all;
+}
+
+.certificado a p:hover {
+    transform: scale(1.01);
+}
+
+.garantia {
+    display: flex;
+    justify-content: center;
+    background-image: url("img/background-certificado.png");
+    padding: 80px 10px 10px 10px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.imagem-garantia img {
+    max-width: 380px;
+}
+
+.garantia-list {
+    padding: 15px;
+    max-width: 500px;
+}
+
+.garantia-list h3 {
+    font-size: 1.4em;
+    color: #ffff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.garantia-list h2 {
+    margin-top: 6px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #ffff;
+    font-size: 1.9em;
+}
+
+.garantia-pink {
+    color: #ffa2fa;
+}
+
+.garantia-list p {
+    margin-top: 9px;
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #ffff;
+}
+
+.black-november {
+    padding: 25px;
+    text-align: center;
+    background-image: linear-gradient(150deg, black, #161308);
+}
+
+.black-november h3 {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #d1bd77;
+    text-shadow: 2px 2px 4px #d1bd77;
+}
+
+.black-november h2 {
+    color: #d1bd77;
+    text-shadow: 2px 2px 4px #d1bd77;
+    font-size: 1.8em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.black-november h4 {
+    color: #ffff;
+    text-shadow: 2px 2px 17px #ffff;
+    font-size: 4em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#participe-black {
+    font-size: 1.2em;
+    color: #d1bd77;
+    text-shadow: 2px 2px 14px #d1bd77;
+}
+
+.black-november p {
+    color: #ffff;
+    margin-top: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 12px;
+}
+
+.offer {
+    background-image: linear-gradient(45deg, rgba(54, 1, 57, 0.905), rgb(57, 15, 57));
+}
+
+.flex-offer {
+    display: flex;
+    max-width: 1500px;
+    margin: 30px auto 0 auto;
+    justify-content: space-between;
+    padding: 20px;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.offer-container {
+    background-image: url("img/price-img1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #07000bdd;
+    max-width: 350px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 30px;
+    min-height: 240px;
+    margin: 0 auto;
+}
+
+#offer-special {
+    padding-top: 35px;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ffa2fa;
+}
+
+#limit-time {
+    color: #ffff;
+    text-align: center;
+    font-size: 2.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.offer-container h2 {
+    color: #ffff;
+    font-size: 2.1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 40px;
+}
+
+.offer-container p {
+    margin-top: 20px;
+    font-size: 1.3em;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff;
+}
+
+#offer-price {
+    color: #8eef69;
+    font-size: 4.2em;
+    font-weight: bolder;
+}
+
+.offer-container a p {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ff30f4;
+    font-size: 22px;
+    padding: 7px 40px;
+    border-radius: 8px;
+    max-width: 500px;
+    display: block;
+    margin: 35px auto;
+    box-shadow: 2px 2px 23px #ff30f4;
+    text-align: center;
+    transition: .1s all;
+}
+
+#offer-premium span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#h1-shadow-offer {
+    font-size: 1.5em;
+    color: yellow;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: initial;
+}
+
+p.yellow-offer, h2.yellow-offer, p#offer-price.p-offer, #h1-shadow-offer  {
+    color: rgba(249, 249, 0, 0.786);
+    text-shadow: 2px 3px 12px yellow;
+}
+
+a#a-yellow p {
+    color: #ffff;
+    font-weight: bolder;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgba(249, 249, 0, 0.786);
+    font-size: 22px;
+    padding: 7px 40px;
+    border-radius: 8px;
+    max-width: 500px;
+    display: block;
+    margin: 35px auto;
+    box-shadow: 2px 2px 23px yellow;
+    text-align: center;
+    transition: .1s all;
+    text-shadow: 1px 2px 3px black;
+}
+
+#offer-premium img {
+    max-width: 25px;
+    margin-right: 4px;
+}
+
+.offer-container a p:hover {
+    transform: scale(1.01);
+}
+
+.perguntas {
+    background-color: gray;
+    max-width: 600px;
+}
+
+.perguntas h3 {
+    font-size: 1.8em;
+}
+
+#x {
+    cursor: pointer;
+    transition: .4s all;
+}
+
+#x:hover {
+    font-size: 1.1em;
+}
+
+#paragrafo {
+    background-color: blue;
+    display: none;
+}
+
+@media(max-width: 609px) {
+    .module img {
+        margin: 0 auto;
+    }
+
+    .alunas iframe {
+        min-height: 300px;
+    }
+}
+
+@media(max-width: 515px) {
+    #video-top {
+        height: 250px;
+    }
+
+    .alunas iframe {
+        min-height: 260px;
+    }
+}
+
+@media(max-width: 400px) {
+    #video-top {
+        height: 200px;
+    }
+
+    header h1 {
+        font-size: 17px;
+    }
+
+}
+
