@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -698,17 +702,18 @@ a#a-yellow p {
     font-size: 1.8em;
 }
 
-#x {
+/* #x {
     cursor: pointer;
     transition: .4s all;
 }
 
 #x:hover {
     font-size: 1.1em;
-}
+} */
 
 #paragrafo {
     background-color: blue;
+    padding: 20px;
     display: none;
 }
 
