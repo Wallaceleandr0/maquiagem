@@ -7,6 +7,7 @@ html {
     padding: 0;
     list-style: none;
     text-decoration: none;
+    transition: .3s all;
 }
 
 .container-top {
@@ -694,27 +695,80 @@ a#a-yellow p {
 }
 
 .perguntas {
-    background-color: gray;
-    max-width: 600px;
+    padding-top: 20px;
+    margin: 0 auto 15px auto;
+    max-width: 700px;
 }
 
-.perguntas h3 {
-    font-size: 1.8em;
+.perguntas h2 {
+    font-size: 2.2em;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffff;
+    margin-bottom: 15px; 
 }
 
-/* #x {
+.perguntas details {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 2px solid #ffa2fa;
+    border-left: 2px solid #ffa2fa;
+    border-right: 2px solid #ffa2fa;
+    transition: .3s all
+}
+
+.perguntas summary {
     cursor: pointer;
-    transition: .4s all;
+    padding: 15px;
+    font-size: 1.5em;
+    color: #ffa2fa;
 }
 
-#x:hover {
-    font-size: 1.1em;
-} */
+#border-bottom {
+    border-bottom: 2px solid #ffa2fa;
+}
 
-#paragrafo {
-    background-color: blue;
-    padding: 20px;
-    display: none;
+#summary-p {
+    padding: 15px;
+    color: #ffff;
+    font-size: 1.2em;
+}
+
+summary span {
+    color: #ffa2fa;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    float: right;
+}
+
+.last-container {
+    background-image: url("img/background-last.png");
+    background-size: cover;
+    padding: 15px;
+}
+
+footer {
+    padding: 15px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffa2fa;
+    background-image: linear-gradient(100deg, rgb(167, 0, 108), #62005e);
+}
+
+.img-footer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+footer img {
+    max-width: 40px;
+}
+
+footer img:hover {
+    transform: scale(1.1);
+}
+
+footer p {
+    margin-top: 9px;
 }
 
 @media(max-width: 609px) {

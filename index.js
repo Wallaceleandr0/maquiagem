@@ -1,9 +1,13 @@
 function abrir() {
-    const paragrafo = document.getElementById("paragrafo")
-
-    if (paragrafo.style.display === 'none') {
-        console.log('teste')
+    let paragrafo = document.getElementById("conteudo")
+    
+    console.log(paragrafo)
+    
+    if(paragrafo.style.display == "none") {
+        
+        paragrafo.style.display = "block"
+    } else {
+        paragrafo.style.display = "none"
     }
-
-    return console.log("Hello world")
+    
 }
